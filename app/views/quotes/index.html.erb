@@ -1,1 +1,9 @@
 <h1>Welcome to my Quiz1 Web App</h1>
+<br />
+<br />
+<% @travels.each do |travel| %>
+    <div>
+        <h1><%= travel.country %></h1><br />
+        <i><%= travel.reason %></i>
+    </div>
+<% end %>

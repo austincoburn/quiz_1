@@ -1,0 +1,9 @@
+
+<div class="booyah=box col-10 offset-1">
+<h1>Where we traveling to?</h1>
+    <%= simple_form_for @travels do |f| %>
+        <%= f.input :country %>
+        <%= f.input :reason %>
+        <%= f.submit 'Create' %>
+    <% end %>
+</div>
