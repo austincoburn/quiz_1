@@ -4,7 +4,7 @@ class QuotesController < ApplicationController
   end
 
   def new
-    @travel = Travel.new
+    @quote = Travel.new
   end
 
 end

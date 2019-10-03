@@ -1,9 +1,11 @@
 
-<div class="booyah=box col-10 offset-1">
-<h1>Where we traveling to?</h1>
-    <%= simple_form_for @travel do |f| %>
-        <%= f.input :country %>
-        <%= f.input :reason %>
+<h1>hello</h1>
+<br />
+<div class="booyah-box col-10 offset-1">
+<h2>Where we traveling to?</h2>
+    <%= simple_form_for @quote do |f| %>
+        <%= f.input :country, as: :text %>
+        <%= f.input :reason, as: :text %>
         <%= f.submit 'Create' %>
     <% end %>
 </div>
